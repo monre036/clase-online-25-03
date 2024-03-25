@@ -22,4 +22,34 @@ ul {
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: #333;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    /* Flex-direction y flex-wrap 
+    flex-flow: row-reverse wrap; */
+    /* gap: 1rem; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end;
+    align-items: flex-start; */
+    /* align-content: start; */
+    height: 600px;
+    width: 600px;
+    border: 1px solid steelblue;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color: #333;
+    font-size: 2rem;
+    order: 0;
+}
+
+.box-special {
+    order: -1;
 }
